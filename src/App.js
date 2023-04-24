@@ -5,10 +5,8 @@ import {HashRouter,Routes,Route} from 'react-router-dom'
 function App() {
   return (
     <HashRouter>
-    <Routes>
       <Route path="/" exact element={<Home />} />
       <Route path="/about" element={<About/>} />
-    </Routes>
     </HashRouter>
   );
 }
